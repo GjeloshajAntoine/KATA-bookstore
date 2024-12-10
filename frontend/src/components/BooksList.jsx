@@ -1,10 +1,15 @@
+import styled from "styled-components";
 import { BookItem } from "./BookItem";
 
+const StyledBooksList = styled.div`
+    display: flex;
+    justify-content: center;
+`;
 
 export function BooksList({books}) {
-    return (<div>
+    return (<StyledBooksList>
         {books.map(({name, author, price}, idx) => (
             <BookItem key={idx} name={name} author={author} price={price} />
         ))}
-    </div>);
+    </StyledBooksList>);
 }
