@@ -3,6 +3,7 @@ import styled from "styled-components";
 const StyledItem = styled.div`
     width: 150px;
     height: 200px;
+    position: relative;
     padding-top: 5px;
     background-color: #ffffb3;
     &:hover {
@@ -21,10 +22,13 @@ const StyledAuthor = styled.p`
 
 const StyledPrice= styled.span`
     border-radius: 100%;
+    display: inline-block;
+    position: absolute;
     padding: 5px;
     background-color: #00ff00;
-    display: inline-block;
-    margin: 65% 80% 0;
+    right: 0px;
+    bottom: 0px;
+    transform: rotate(-15deg);
 `
 
 export function BookItem({name, author, price}) {
