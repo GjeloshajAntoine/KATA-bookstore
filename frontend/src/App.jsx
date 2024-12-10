@@ -1,13 +1,12 @@
-import { BrowserRouter, Route, Routes } from 'react-router'
+import { Route, Routes } from 'react-router'
 import './App.css'
+import { Home } from './pages/Home'
 
 function App() {
   return (
-    <BrowserRouter>
         <Routes>
-            <Route path='/' />
+            <Route path='/' Component={Home}/>
         </Routes>
-    </BrowserRouter>
   )
 }
 
