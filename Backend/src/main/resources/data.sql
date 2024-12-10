@@ -1,1 +1,10 @@
 INSERT INTO books (id, name, author, price) VALUES (1, 'The first book', 'The first author', 10);
+INSERT INTO books (id, name, author, price) VALUES (2, 'The most expensive book', 'The wealthiest author', 5);
+INSERT INTO books (id, name, author, price) VALUES (3, 'The third book', 'The third author', 5);
+INSERT INTO books (id, name, author, price) VALUES (4, 'The forth book', 'The forth author', 10);
+INSERT INTO books (id, name, author, price) VALUES (5, 'Le livre à 4 euros', 'Auteur à 4 euros', 4);
+INSERT INTO books (id, name, author, price) VALUES (6, 'The sixth book', 'The sixth author', 5);
+INSERT INTO books (id, name, author, price) VALUES (7, 'The least expensive book', 'The new author', 3);
+INSERT INTO books (id, name, author, price) VALUES (8, 'The height book', 'The height author', 10);
+INSERT INTO books (id, name, author, price) VALUES (9, 'The tenth book', 'The tenth author', 10);
+INSERT INTO books (id, name, author, price) VALUES (10, 'The tenth book', 'The tenth author', 10);
