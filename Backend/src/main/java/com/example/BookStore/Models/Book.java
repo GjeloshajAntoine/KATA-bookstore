@@ -13,6 +13,7 @@ public class Book {
     private long id;
     private String name;
     private String author;
+    private String price;
 
     public Book() {
 
@@ -33,6 +34,10 @@ public class Book {
 
     public String getAuthor() {
         return this.author;
+    }
+
+    public String getPrice() {
+        return this.price;
     }
 
 }
