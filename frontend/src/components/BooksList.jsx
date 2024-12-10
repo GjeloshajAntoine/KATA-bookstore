@@ -4,6 +4,7 @@ import { BookItem } from "./BookItem";
 const StyledBooksList = styled.div`
     display: flex;
     justify-content: center;
+    gap: 15px;
 `;
 
 export function BooksList({books}) {
